@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> ICAD 2015-2016 Mid Term Project </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto+Serif:700|Droid+Serif:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <style>
+      ul, ol{
+        list-style: none;
+      }
+    </style>
+    <header>
+      <a href="index.html" id="logo">
+        <h1> ICAD 2015-2016 Mid Term Project </h1>
+        <h2> Student name: Ken Liu (Shek Kin) </h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Introduction</a></li>
+          <li><a href="rps.html" class="selected">Rock Paper Scissors</a></li>
+          <li><a href="dice.html">Dices Rolling</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="thereYaGo">
+      <section id="primary">
+        <p style="margin: 0;">Welcome to the game, Rock, Paper and Scissors!</p>
+        <img src="images/rps.jpg" alt="" style="margin:10px;">
+        <p>Select your move in the following select box:</p>
+        <select id = "rpsSelectBox">
+          <option value = "blank" selected> Choose One! </option>
+          <option value = "rock"> Rock </option>
+          <option value = "paper"> Paper </option>
+          <option value = "scissors"> Scissors </option>
+        </select>
+        <p></p>
+        <img onclick="play()" src="http://buyadoo.com/css-Animated-Button/animated-Button-4.gif" alt="cool" style="width:150px;height:100px;">
+        <p id="users"></p>
+        <p id="comps"></p>
+        <p id="winner"></p>
+      </section>
+      <footer>
+        <a href="http://twitter.com/KenLiuSTEM"><img src = "images/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <p>&copy; 2015-2016 Ken Liu (Shek Kin)</p>
+      </footer>
+    </div>
+    <script src = "js/rps.js"></script>
+  </body>
+</html>
