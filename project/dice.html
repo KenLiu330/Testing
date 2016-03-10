@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> ICAD 2015-2016 Mid Term Project </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto+Serif:700|Droid+Serif:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <style>
+      ul, ol{
+        list-style: none;
+      }
+    </style>
+    <header>
+      <a href="index.html" id="logo">
+        <h1> ICAD 2015-2016 Mid Term Project </h1>
+        <h2> Student name: Ken Liu (Shek Kin) </h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Introduction</a></li>
+          <li><a href="rps.html">Rock Paper Scissors</a></li>
+          <li><a href="dice.html" class="selected">Dices Rolling</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="thereYaGo">
+      <section id="primary">
+        <p style="margin: 0;">Welcome to the game, Dices Rolling!</p>
+        <img src="images/dice.jpg" alt="" style="margin:10px;">
+        <button  type="button" onclick="playRoll()">Roll the dices!</button>
+        <p></p>
+        <p id="dice1"></p>
+        <p id="dice2"></p>
+        <p id="diceResult"></p>
+      </section>
+      <footer>
+        <a href="http://twitter.com/KenLiuSTEM"><img src = "images/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <p>&copy; 2015-2016 Ken Liu (Shek Kin)</p>
+      </footer>
+    </div>
+    <script src = "js/dice.js"></script>
+  </body>
+</html>

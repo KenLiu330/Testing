@@ -1,0 +1,218 @@
+/** don't use this **/
+
+/********************
+  GENERAL
+********************/
+
+a{
+  text-decoration:none;
+  list-style: none;
+  
+}
+
+/********************
+  HEADING
+********************/
+
+header{
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background: linear-gradient(lightgrey, grey);
+}
+
+body{
+  /*background-color: lightblue;*/
+  padding-top: -100px;
+  list-style: none;
+}
+footer{
+  color: blue;
+}
+nav a{
+  color: blue;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#thereYaGo{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img{
+  max-width: 100%;
+}
+
+h3{
+  margin: 0 0 1em 0;
+}
+
+#logo{
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Noto Serif', serif;
+  margin: 0;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2{
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: normal;
+}
+
+/********************
+  NAVIGATION
+********************/
+
+nav{
+  text-align: center;
+  padding: 16px 0;
+  margin: 20px 0 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/********************
+  FOOTER
+********************/
+
+footer{
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: darkblue;
+}
+
+#social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/********************
+  PAGE INDEX
+********************/
+
+#picsControl{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#picsControl{
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+
+#picsControl li a p{
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+/********************
+  PAGE: ABOUT
+********************/
+
+.profile-photo{
+  display: block;
+  max-width: 250px;
+  margin: 0 auto 30px;
+  border-radius: 30%;
+}
+
+/********************
+  PAGE: ABOUT
+********************/
+
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em
+}
+
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image: url('../images/phone.png');
+}
+
+.contact-info li.mail a{
+  background-image: url('../images/mail.png');
+}
+
+.contact-info li.twitter a{
+  background-image: url('../images/twitter.png');
+}
+
+/********************
+  COLORS
+********************/
+
+a{
+  color: blue;
+}
+
+/* green header */
+header{
+  border-color: blue;
+}
+
+h1, h2{
+  color: #fff;
+}
+
+/*
+nav{
+  background: darkblue;
+}
+*/
+
+nav a, nav a:visited{
+  color: #fff;
+}
+
+nav a.selected, nav a:hover{
+  color: darkblue;
+}
+
+/* site body */
+body{
+  background-color: lightblue;
+  color: black;
+}
